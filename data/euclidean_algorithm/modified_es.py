@@ -39,5 +39,3 @@ def euclides_mcd(primer_numero: int, segundo_numero: int) -> int:
 
     # En este punto, primer_numero == segundo_numero, por lo que cualquiera de las dos variables contiene el MCD.
     return primer_numero
-
-    
