@@ -39,6 +39,3 @@ def euclidean_gcd(first_number: int, second_number: int) -> int:
 
     # At this point first_number == second_number, so either variable holds the GCD.
     return first_number
-
-
-    
