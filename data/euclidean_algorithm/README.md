@@ -1,5 +1,5 @@
 # Algorithm name
-Euclidean Algorithm
+Euclidean Greatest Common Divisor Algorithm
 
 ## Author
 Andrés Murray Roppel (2026-03-23)
