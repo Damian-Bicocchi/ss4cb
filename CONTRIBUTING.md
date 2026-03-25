@@ -114,6 +114,12 @@ If a tool was used, describe the tool and include the command invocation if poss
 Example: `pyarmor obfuscate --restrict=0 base_us.py`
 ```
 
+
+---
+
+## Testing code
+If you provide testing code for your algorithms, put it on a `tests` folder inside your algorithm folder.
+
 ---
 
 ## Example Folder Layout
@@ -124,8 +130,15 @@ eratosthenes_sieve/
 ├── base_us.py
 ├── modified_es.py
 ├── modified_pt.py
-└── modified_obf.py
+├── modified_obf.py
+└── tests/
+    └── tests_base.py
 ```
+
+---
+
+## Commit Rules
+Do not make a single commit for several algorithms. If you are submiting several algorithms, separate each one in a different commit.
 
 ---
 
@@ -135,6 +148,7 @@ eratosthenes_sieve/
 - [ ] Exactly one base file exists, named `base_<lang>.<ext>`
 - [ ] All modified files are named `modified_<lang>.<ext>` or `modified_obf.<ext>`
 - [ ] All translations were done **by hand** (no LLMs used for translation)
+- [ ] No test code in `base_<lang>.<ext>` or `modified_<lang>.<ext>` files.
 - [ ] The logic of the code is unchanged across all versions
 - [ ] A `README.md` is included with all required sections
 - [ ] The `README.md` is written in English
