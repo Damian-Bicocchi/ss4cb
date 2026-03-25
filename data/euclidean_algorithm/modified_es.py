@@ -10,10 +10,8 @@ def euclides_mcd(primer_numero: int, segundo_numero: int) -> int:
     Returns:
         int: El MCD de primer_numero y segundo_numero.
 
-    Raises
-    ------
-    ValueError
-        Si primer_numero o segundo_numero es cero o negativo.
+    Raises:
+        ValueError: Si primer_numero o segundo_numero es cero o negativo.
     """
     # Valida que ambos valores sean enteros estrictamente positivos;
     # el MCD no está definido para el cero ni para números negativos.
