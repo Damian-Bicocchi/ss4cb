@@ -4,16 +4,11 @@ def euclidean_gcd(first_number: int, second_number: int) -> int:
     using the classic subtraction-based Euclidean Algorithm.
 
     Args:
-    ----------
-    first_number : int
-        First positive integer.
-    second_number : int
-        Second positive integer.
+        first_number (int): First positive integer.
+        second_number (int): Second positive integer.
 
-    Returns
-    -------
-    int
-        The GCD of first_number and second_number.
+    Returns:
+        int: The GCD of first_number and second_number.
 
     Raises
     ------
