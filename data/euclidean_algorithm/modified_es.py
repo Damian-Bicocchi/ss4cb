@@ -1,19 +1,14 @@
 def euclides_mcd(primer_numero: int, segundo_numero: int) -> int:
     """
-    Calcula el sMáximo Común Divisor (MCD) de dos números enteros positivos
+    Calcula el Máximo Común Divisor (MCD) de dos números enteros positivos
     utilizando el algoritmo de Euclides basado en restas.
 
     Args:
-    ----------
-    primer_numero : int
-        Primer número entero positivo.
-    segundo_numero : int
-        Segundo número entero positivo.
+        primer_numero (int): Primer número entero positivo.
+        segundo_numero (int): Segundo número entero positivo.
 
-    Returns
-    -------
-    int
-        El MCD de primer_numero y segundo_numero.
+    Returns:
+        int: El MCD de primer_numero y segundo_numero.
 
     Raises
     ------
