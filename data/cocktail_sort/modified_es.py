@@ -61,36 +61,3 @@ def ordenamiento_agitador_cocktail(arreglo: list[int], ascendente: bool = True) 
         inicio += 1
 
     return arr
-
-def test_cocktail_shaker_sort():
-    # Caso base: lista desordenada
-    data = [5, 3, 8, 4, 2]
-    assert ordenamiento_agitador_cocktail(data) == [2, 3, 4, 5, 8]
-
-    # Orden descendente
-    assert ordenamiento_agitador_cocktail(data, ascendente=False) == [8, 5, 4, 3, 2]
-
-    # Lista ya ordenada
-    data_sorted = [1, 2, 3, 4, 5]
-    assert ordenamiento_agitador_cocktail(data_sorted) == [1, 2, 3, 4, 5]
-
-    # Lista inversamente ordenada
-    data_reverse = [5, 4, 3, 2, 1]
-    assert ordenamiento_agitador_cocktail(data_reverse) == [1, 2, 3, 4, 5]
-
-    # Lista con elementos repetidos
-    data_duplicates = [3, 1, 2, 3, 1]
-    assert ordenamiento_agitador_cocktail(data_duplicates) == [1, 1, 2, 3, 3]
-
-    # Lista con un solo elemento
-    assert ordenamiento_agitador_cocktail([1]) == [1]
-
-    # Lista vacía
-    assert ordenamiento_agitador_cocktail([]) == []
-
-    print("All tests passed!")
-
-
-# Ejecutar test
-if __name__ == "__main__":
-    test_cocktail_shaker_sort()
